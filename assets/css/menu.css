@@ -1,0 +1,86 @@
+.ul_tweet {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+    background-color: rgb(42, 16, 16);
+  }
+  
+  .il_tweet {
+    float: left;
+  }
+  
+  .il_tweet a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .il_tweet a:hover {
+    background-color: #111;
+  }
+
+  td {
+    border: 1px solid rgb(210, 182, 175);
+    text-align: left;
+    padding: 2px;
+    font-size: 0.8rem;
+  }
+  .titre_table {
+      color: rgb(201, 201, 201);
+      font-style: italic;
+      max-width: 100%;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(223, 223, 223);
+  }
+
+  /* Update */
+
+  /* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(42, 16, 16);
+  } */
+  
+  ul 
+  {
+    margin-top: 0;
+    margin-bottom: 0rem !important;
+}
+  li {
+    text-align: center;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  td {
+    border: 1px solid rgb(210, 182, 175);
+    text-align: left;
+    padding: 2px;
+    font-size: 0.8rem;
+  }
+  .titre_table {
+      color: rgb(201, 201, 201);
+      style: italic;
+      max-width: 100%;
+  }
+  

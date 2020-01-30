@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    /* width: 950px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.commentaire {
+    list-style-type: none;
+    /* background-color: rgba(134, 217, 255, 0.425); */
+    border-radius: 5px;
+    width: 100%;
+
+}
+.hashtag_list {
+    list-style-type: none;
+
+}
+            
+
+.userlink {
+    background-color: rgba(17, 17, 17, 0.116) !important;
+    /* text-align: left !important; */
+    border-radius: 5px;
+    width: 100px;
+    text-align: center !important;
+
+}
+
+.retweet li {
+    background-color: rgba(69, 192, 20, 0.116) !important;
+    text-align: left !important;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center !important;
+}
+
+.commentaire-link {
+    margin-left: 55px !important;
+    text-align: center;
+    list-style-type: none;
+    background-color: rgba(65, 42, 63, 0.075) !important;
+    padding: 15px;
+    border-radius: 5px;
+    width: 150px !important;
+}
+.avatar_img_tweet {
+    /* text-align: left !important; */
+    border-radius: 100%;
+}
+.avatar_img_retweet {
+    /* text-align: left !important; */
+    border-radius: 100%;
+}
+
+.avatar_tweet {
+    text-align: left !important;
+    /* border-radius: 100%; */
+}
+
+.avatar_retweet {
+    text-align: left !important;
+    margin-left: 50px;
+}
+
+.userlink-retweet {
+    background-color: rgba(17, 17, 17, 0.116) !important;
+    text-align: left !important;
+    border-radius: 5px;
+    width: 100px !important;
+    text-align: center !important;
+}
+
+.commentaire-content {
+    width: 85%;
+    text-align: left;
+    padding: 15px;
+    background-color: rgba(161, 178, 201, 0.438);
+    border-radius: 5px;
+
+
+}
+
+.replies {
+    list-style-type: none;
+    /* background-color: rgba(134, 217, 255, 0.425); */
+    border-radius: 5px;
+    width: 100%;
+
+}
+
+.retweet-content {
+    width: 80%;
+    text-align: left;
+    padding: 15px;
+    background-color: rgba(53, 131, 22, 0.253) !important;
+    border-radius: 5px;
+    margin-left: 50px;
+}

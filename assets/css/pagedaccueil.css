@@ -1,0 +1,151 @@
+body {
+    margin: auto;
+}
+#bandenoir
+{
+    padding: 40px;
+    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(42, 16, 16); */
+}
+.parcourir {
+    margin-top: 1em;
+    font-style: italic;
+}
+.submit {
+    color: #691616;
+    /* border-radius: 16px; */
+    border: none;
+    background-color: transparent;
+    margin-top: 1em;
+    font-weight: bold;
+}
+.bouton_comm {
+    color: #6C8FCF !important;
+    text-align: left !important;
+}
+.submit:hover{
+    color: rgb(189, 68, 64);
+    text-decoration: underline;
+}
+
+.gauche {
+    /* background-image: url("../img/chauvesouris.jpg");
+    background-size: cover;
+    width: 100%; */
+    background-image: url("../img/chauvesouris.png");
+    background-repeat: no-repeat;
+    /* background-size: cover;
+    width: 100%; */
+    background-size: contain;
+    max-height: 392px;
+    /* margin-top: 30px !important; */
+
+}
+.resume_actualite {
+    color: white;
+}
+.gauche p {
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 20px;
+}
+
+.description {
+    float: left;
+    padding-right: 20px;
+}
+
+.imgetdesc {
+    padding-top: 150px;
+    padding-left: 70px;
+}
+
+.imageetdescription {
+    padding-bottom: 12px;
+    padding-left: 70px;
+}
+
+.droite {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.titre {
+    font-size: 60px;
+    margin-bottom: 40px;
+    color: rgb(42, 16, 16);
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+}
+.error {
+    color: white !important;
+}
+
+#seco {
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.connex {
+    margin-bottom: 15px;
+}
+
+#inscription {
+    margin-top: 20px;
+    margin-bottom: -2px;
+}
+
+footer {
+    /* position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 10px; */
+    position: absolute;
+    bottom:0;
+    width:100%;
+    padding-top:50px;
+    height:50px;
+    font-size: 10px;
+}
+
+footer a {
+    color: rgb(42, 16, 16);
+
+}
+
+#creervotre {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+label {
+    font-size: 13px;
+}
+
+.formulaire {
+    text-align: center;
+    margin: 0.6em;
+}
+.formulaire input {
+    width: 22.5em !important;
+}
+.formulaire label {
+    font-size: 1.3em;
+}
+
+@media screen and (min-width: 200px) and (max-width: 768px)
+{
+    footer
+    {
+        visibility: hidden;
+    }
+    .gauche
+    {
+        background-image: url("img/chauvesouris.png");
+        background-repeat: no-repeat;
+        background-size: 80%;
+        padding-top: 280px;
+    }
+}

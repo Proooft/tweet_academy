@@ -1,0 +1,326 @@
+.container-fluid {
+    padding: 0 !important;
+}
+
+.container {
+    max-width: 1600px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background-profil {
+    background-color: #07172F !important;
+
+}
+
+.background-general {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.nom {
+    font-weight: bold;
+}
+
+/*##########    BANDEAU ##########*/
+#logo_back {
+    background-color: rgba(0,0,0,1) !important;
+    /* background-color: rgb(42, 16, 16) !important; */
+
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 1000;
+}
+
+.div_menu {
+    text-align: center;
+    padding: 1.4em;
+}
+
+.div_menu a {
+    padding: 1.2em;
+    color: #6C8FCF;
+}
+
+.div_menu a:hover {
+    color: #ecf0f1;
+}
+
+.div_menu_logo {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu_logo {
+    height: 5em;
+    width: auto;
+    border-radius: 0% 0% 10% 10%;
+}
+
+.logo {
+    width: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -4.4em;
+}
+
+.div_menu_avatar {
+    text-align: right;
+}
+
+.menu_avatar {
+    border-radius: 100%;
+    border: 0.2em solid #333;
+    /*! width: auto; */
+    height: 4em;
+    /*! margin-right: 3em; */
+    margin-top: 0.5em;
+    margin-right: 1em;
+}
+
+
+.bouton {
+    text-align: center;
+    margin-top: 2, 3 em;
+    padding: 0.3em;
+    color: #6C8FCF;
+    border: 3px solid #6C8FCF;
+    border-radius: 10%;
+}
+
+.bouton:hover {
+    color: #ecf0f1;
+    border: 2px solid #ecf0f1;
+}
+
+
+/*##########    BANDEAU PHOTO & LOGO     ##########*/
+
+.logo_menu {
+    background-image: url("../img/chauvesouris.png");
+    background-size: 100%;
+    height: 81px;
+    width: 82px;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+}
+
+.bandeau_photo {
+    width: 100%;
+    height: 18em;
+    background-image: url("../img/810130.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.phrase_de_humeur {
+    color: white;
+}
+.submit_phrase {
+    font-weight: bold;
+    color: #6C8FCF;
+    border: none;
+    background-color: transparent;
+}
+
+/*##########    BANDEAU MENU     ##########*/
+
+
+.nav {
+    /* background: black; */
+    /* background-color: rgb(0, 0, 0) !important; */
+    background-color: rgb(42, 16, 16) !important;
+
+
+    height: 4em;
+}
+
+.nav li {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+li {
+    list-style: none;
+}
+
+.nav li a {
+    text-align: center;
+    margin-right: 3em;
+    padding: 0.4em;
+    color: #6C8FCF;
+    border: 3px solid #6C8FCF;
+    border-radius: 10%;
+    font-size: 1.3em;
+}
+
+.nav li a:hover {
+    color: #ecf0f1;
+    border: 2px solid #ecf0f1;
+}
+
+/*##########    ENCADRE GAUCHE     ##########*/
+
+.encadre_gauche {
+    border: 0.2em solid black;
+    margin-top: 1em;
+    background-color: rgba(198, 252, 253, 0.1);
+    font-size: 1.3em;
+}
+
+.avatar {
+
+    border-radius: 100%;
+    border: 0.2em solid #333;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8em;
+    height: 12em;
+}
+
+.encadre_gauche ul {
+    padding-top: 2em;
+    color: #ecf0f1;
+}
+
+.encadre_gauche li {
+    padding: 0.2em;
+}
+
+.encadre_gauche ul a {
+    /*! padding: 2em; */
+    color: #6C8FCF;
+}
+
+.image_perso {
+    padding: 0em !important;
+}
+
+.image_perso img {
+    border: 1px solid rgb(230, 229, 229);
+    width: 95px;
+    height: 70px;
+    padding: 0 !important;
+
+}
+
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.img-center {
+    margin: 3% auto
+}
+
+/*##########    ENCADRE DROITE   ##########*/
+
+.tendance {
+    border: 0.2em solid black;
+    font-size: 1.3em;
+    color: #ecf0f1;
+    margin-top: 1em;
+    background-color: rgba(198, 252, 253, 0.1);
+}
+
+/*##########    CENTRE   ##########*/
+
+.sqweel {
+    border: 0.2em solid black;
+    margin-top: 1em;
+    background-color: rgba(198, 252, 253, 0.1);
+}
+
+.miniature_avatar {
+    border-radius: 100%;
+    border: 0.2em solid #333;
+    width: 5em;
+    margin-top: 0.2em;
+    margin-left: 0.2em;
+}
+
+.identifiant_sqweel {
+    display: flex;
+    font-size: 1.3em;
+    color: #ecf0f1;
+    border-bottom: 0.05em solid black;
+    /*! height: 3em; */
+    padding-top: 1em;
+}
+
+.identifiant_sqweel li {
+    padding: 0.2em;
+}
+
+.sqweel_include {
+    margin-left: 5em;
+    font-size: 1.3em;
+    color: #ecf0f1;
+}
+
+.sqweel a {
+    color: #6C8FCF;
+}
+
+.footer_sqweel {
+    display: flex;
+    color: #ecf0f1;
+    justify-content: space-around;
+}
+
+
+/*##########    FOOTER   ##########*/
+
+.footer a {
+    color: grey;
+}
+
+.footer a:hover {
+    color: grey;
+}
+
+.footer a:visited {
+    color: grey;
+}
+
+
+/* *************************** */
+/*       MEDIAS SCREEN         */
+/* *************************** */
+
+@media screen and (min-width: 200px) and (max-width: 900px) {
+    header ul {
+    visibility: hidden;
+    }
+    
+    .menu_logo{
+        visibility: hidden;
+    }
+    
+    .menu_avatar {
+        visibility: hidden;
+    }
+    .footer {
+        visibility: hidden;
+    }
+    
+    .div_menu {
+        padding: 0.4em;
+    }
+    
+    .div_menu_avatar {
+        text-align: left;
+        margin-top: -8em;
+        margin-left: -1em;
+    }
+    
+    .identifiant_sqweel {
+        font-size: 1em;
+    }
+    
+    }
